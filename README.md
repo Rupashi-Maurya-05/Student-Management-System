@@ -52,7 +52,7 @@ ORDER BY marks_obtained ASC;
 ## 🖥 Screenshots
 
 **Reports Tab**
-![Reports Tab](screenshorts/reports_dashboard.png)
+![Reports Tab](screenshots/reports_dashboard.png)
 
 **Students Tab**
 ![Students Tab](screenshots/Students_tab.png)
@@ -114,3 +114,4 @@ python app.py
 * Hands-on experience with **Python GUI development**
 * Understanding **SQL joins, filtering, sorting, and CRUD operations**
 * Building a **functional academic management dashboard**
+
