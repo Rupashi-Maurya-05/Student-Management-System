@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from db_conn import create_connection
-from marks_tab import MarksTab
+from src.db.db_conn import create_connection
+from src.modules.marks_tab import MarksTab
 #from reports_tab import ReportsTab
-from dashboard_tab import DashboardTab
+from src.modules.dashboard_tab import DashboardTab
 
 
 

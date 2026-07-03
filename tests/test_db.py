@@ -1,4 +1,4 @@
-from db_conn import create_connection
+from src.db.db_conn import create_connection
 
 conn = create_connection()
 if conn:

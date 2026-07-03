@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import seaborn as sns
-from db_conn import create_connection
+from src.db.db_conn import create_connection
 import pandas as pd
 import warnings
 

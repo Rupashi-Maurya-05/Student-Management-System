@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from db_conn import create_connection
+from src.db.db_conn import create_connection
 
 class MarksTab:
     def __init__(self, parent):
