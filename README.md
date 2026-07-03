@@ -71,13 +71,39 @@ ORDER BY marks_obtained ASC;
 * **Git & GitHub** – Version control & project hosting
 
 ---
+## 📁 Project Structure
+
+**Core Files**
+- app.py → Main entry point of the application  
+- dashb.py → Dashboard interface  
+
+**Database**
+- database/std_mgmt_data1.sql → SQL schema and sample data  
+- src/db/db_conn.py → MySQL connection handler  
+
+**Modules (Application Logic)**
+- src/modules/dashboard_tab.py → Dashboard functionality  
+- src/modules/student_ops.py → Student CRUD operations  
+- src/modules/marks_tab.py → Marks management system  
+- src/modules/reports_tab.py → Reports generation  
+- src/modules/graphs.py → Data visualization  
+
+**Testing**
+- tests/test_conn.py → Database connection tests  
+- tests/test_db.py → Database query tests  
+
+**Other**
+- screenshots/ → UI screenshots  
+- venv/ → Virtual environment (ignored in Git)
+
+---
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/YourUsername/Student-Management-System.git
+git clone https://github.com/Rupashi-Maurya-05/Student-Management-System.git
 cd Student-Management-System
 ```
 
@@ -89,7 +115,7 @@ venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 ```
 
-3. **Install dependencies** (if any):
+3. **Install dependencies**:
 
 ```bash
 pip install -r requirements.txt
@@ -115,3 +141,12 @@ python app.py
 * Understanding **SQL joins, filtering, sorting, and CRUD operations**
 * Building a **functional academic management dashboard**
 
+---
+
+## 📌 Future Improvements
+
+* Convert into web application using Flask or Django
+* Add authentication (login system)
+* Role-based access (Admin / Student)
+* Export reports to Excel/PDF
+* Improve UI with modern styling (CustomTkinter or PyQt)
